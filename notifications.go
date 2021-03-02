@@ -51,7 +51,7 @@ type NotificationRequest struct {
 	IncludeAmazonRegIDs      []string          `json:"include_amazon_reg_ids,omitempty"`
 	IncludeChromeRegIDs      []string          `json:"include_chrome_reg_ids,omitempty"`
 	IncludeChromeWebRegIDs   []string          `json:"include_chrome_web_reg_ids,omitempty"`
-	IncludeExternalUserIDs   []string.         `json:"include_external_user_ids,omitempty"`
+	IncludeExternalUserIDs   []string          `json:"include_external_user_ids,omitempty"`
 	AppIDs                   []string          `json:"app_ids,omitempty"`
 	Tags                     interface{}       `json:"tags,omitempty"`
 	IOSBadgeType             string            `json:"ios_badgeType,omitempty"`
